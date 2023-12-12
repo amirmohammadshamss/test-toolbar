@@ -8,12 +8,12 @@ const config: Configuration = {
     filename: 'bundle.js', // Output file name
   },
   resolve: {
-    extensions: ['.ts', '.js'], // File extensions to resolve
+    extensions: ['.ts', '.tsx', '.js'], // File extensions to resolve
   },
   module: {
     rules: [
       {
-        test: /\.ts$/, // Use ts-loader for .ts files
+        test: /\.tsx?$/, // Use ts-loader for .ts and .tsx files
         exclude: /node_modules/,
         use: 'ts-loader',
       },
