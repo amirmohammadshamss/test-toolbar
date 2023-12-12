@@ -2,13 +2,7 @@
   "name": "lexical-playground",
   "version": "0.3.6",
   "private": true,
-  "scripts": {
-    "dev": "vite --host",
-    "build-dev": "vite build",
-    "build-prod": "vite build --config vite.prod.config.js",
-    "build-vercel": "(cd ../../ && node ./scripts/build.js --prod) && npm run build-prod",
-    "preview": "vite preview"
-  },
+
   "dependencies": {
     "@excalidraw/excalidraw": "0.17.0",
   	"lexical": "^0.12.5",
