@@ -4,7 +4,7 @@
   "private": true,
   "main": "./src/index.tsx",
   "scripts": {
-    "build": "tsc",
+    "build": "webpack --config webpack.config.ts --mode production",
     "test": "jest"
   },
   "dependencies": {
@@ -20,7 +20,10 @@
     "@types/node": "^20.10.4",
     "@types/webpack": "^5.28.5",
     "@vitejs/plugin-react": "^1.0.7",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
     "vite": "^2.8.0",
-    "vite-plugin-replace": "0.1.1"
+    "vite-plugin-replace": "0.1.1",
+    "webpack-cli": "^5.1.4"
   }
 }
