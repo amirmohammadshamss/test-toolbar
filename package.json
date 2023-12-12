@@ -2,23 +2,25 @@
   "name": "lexical-playground",
   "version": "0.3.6",
   "private": true,
-	"main": "./src/index.tsx",
-	"scripts": {
-		"build": "tsc",
-		"test": "jest"
-	},
+  "main": "./src/index.tsx",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
   "dependencies": {
     "@excalidraw/excalidraw": "0.17.0",
-  	"lexical": "^0.12.5",
     "katex": "^0.15.2",
+    "lexical": "^0.12.5",
     "react": "18.2.0",
-		"react-dom": "18.2.0",
-    "yjs": ">=13.5.22",
-    "y-websocket": "^1.5.0"
+    "react-dom": "18.2.0",
+    "y-websocket": "^1.5.0",
+    "yjs": ">=13.5.22"
   },
   "devDependencies": {
-     "@vitejs/plugin-react": "^1.0.7",
-     "vite": "^2.8.0",
-     "vite-plugin-replace": "0.1.1"
+    "@types/node": "^20.10.4",
+    "@types/webpack": "^5.28.5",
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.8.0",
+    "vite-plugin-replace": "0.1.1"
   }
 }
