@@ -40,7 +40,7 @@ import {createWebsocketProvider} from '../collaboration';
 import {useSharedHistoryContext} from '../context/SharedHistoryContext';
 import StickyEditorTheme from '../themes/StickyEditorTheme';
 import ContentEditable from '../ui/ContentEditable';
-import Placeholder from '../ui/Placeholder';
+import Placeholder from '../ui/Placeholder' ;
 
 type Positioning = {
   isDragging: boolean;
