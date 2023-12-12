@@ -34,7 +34,7 @@ import {
 import * as React from 'react';
 import {useEffect, useRef} from 'react';
 import {createPortal} from 'react-dom';
-import useLayoutEffect from 'shared/useLayoutEffect';
+import useLayoutEffect from '../shared/src/getDOMSelection';
 
 import {createWebsocketProvider} from '../collaboration';
 import {useSharedHistoryContext} from '../context/SharedHistoryContext';

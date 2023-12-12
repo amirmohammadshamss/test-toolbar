@@ -74,7 +74,7 @@ import {
 import * as React from 'react';
 import {ChangeEvent, useCallback, useEffect, useRef, useState} from 'react';
 import {createPortal} from 'react-dom';
-import {IS_APPLE} from 'shared/environment';
+import {IS_APPLE} from '../shared/src/environment';
 
 import useModal from '../hooks/useModal';
 import catTypingGif from '../images/cat-typing.gif';
@@ -83,7 +83,7 @@ import {$createStickyNode} from '../nodes/StickyNode';
 import Button from '../ui/Button';
 import ColorPicker from '../ui/ColorPicker';
 import DropDown, {DropDownItem} from '../ui/DropDown';
-import FileInput from '../ui/FileInput.jsx';
+import FileInput from '../ui/FileInput';
 import KatexEquationAlterer from '../ui/KatexEquationAlterer';
 import LinkPreview from '../ui/LinkPreview';
 import TextInput from '../ui/TextInput';
